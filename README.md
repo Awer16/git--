@@ -25,9 +25,21 @@ cd ваш-репозиторий
 
 # Установите зависимости
 pip install -r requirements.txt
-
+gitpython==3.1.40
+langchain==0.1.5
+gradio==4.13.0
+langfuse==2.0.0
+requests==2.31.0
+numpy==1.26.0
+sentence-transformers==2.2.2
+scikit-learn==1.3.0
+tqdm==4.65.0
+torch>=2.0.0
+transformers>=4.30.0
+это все что надо
 Запуск
 python app.py
+
 
 💡 Как пользоваться
 Вставьте URL публичного репозитория на GitHub
